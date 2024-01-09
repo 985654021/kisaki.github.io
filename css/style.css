@@ -1,0 +1,75 @@
+﻿/* 通用 */
+ul, li, body, p {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color: #feda3b;
+}
+
+body {
+  background: linear-gradient(135deg, #001f3f, #0088a9, #00c9a7, #92d5c6, #ebf5ee);
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.wrapin {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  background-color: var(--color);
+}
+
+.nav {
+  height: 50px;
+}
+
+.nav li {
+  line-height: 50px;
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.nav li a {
+  color: #000000;
+}
+
+.nav li a:hover {
+  color: #ffffff;
+}
+
+.nav .active a{
+  color: #ffffff;
+}
+
+.banner img {
+  width: 100%;
+  height: 600px;
+  display: block;
+  object-fit: cover;
+}
+
+footer {
+  background: var(--color);
+  text-align: center;
+  line-height: 50px;
+  margin-top: 15px;
+}
+
+h2, h3 {
+  color: #ffdb71;
+}
